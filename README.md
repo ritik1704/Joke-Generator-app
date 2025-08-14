@@ -10,6 +10,7 @@ A modern, Streamlit app that generates creative jokes based on any topic you pro
 - Easy to extend for other content types
 
 ## Demo
+You can access the deployed project here:  
 [Joke Content Generator App](https://joke-generator-app.streamlit.app/)
 
 
