@@ -1,6 +1,6 @@
 # Joke Content Generator 🎉
 
-A modern, Streamlit app that generates creative jokes based on any topic you provide! Powered by OpenAI and LangChain, this project demonstrates clean architecture and production-ready code. This can help comedians to get some innovative ideas before hand.
+A modern, Streamlit app that generates creative jokes based on any topic you provide! Powered by OpenAI and LangGraph, this project demonstrates clean architecture and production-ready code. This can help comedians to get some innovative ideas before hand.
 
 ## Features
 - Enter any topic and get a witty, original joke
@@ -10,13 +10,16 @@ A modern, Streamlit app that generates creative jokes based on any topic you pro
 - Easy to extend for other content types
 
 ## Demo
+[Joke Content Generator App](https://joke-generator-app.streamlit.app/)
+
+
 ![Demo Screenshot](demo_screenshot.png)
 
 ## Setup Instructions
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/joke-content-generator.git
+   git clone https://github.com/ritik1704/Joke-Generator-app.git
    cd joke-content-generator
    ```
 
@@ -36,9 +39,6 @@ A modern, Streamlit app that generates creative jokes based on any topic you pro
      ```toml
      OPENAI_API_KEY = "your_openai_api_key_here"
      ```
-   - **Do NOT commit your API key or secrets.toml to GitHub.**
-
-   - For Streamlit Community Cloud deployment, add your `OPENAI_API_KEY` in the app's Secrets section on the Streamlit Cloud dashboard.
 
 4. **Run the app**
    ```bash
@@ -59,14 +59,15 @@ README.md
 - Then, it crafts a short, engaging joke using those key points.
 - All logic is modular and easy to extend.
 
-## Deployment on Streamlit Community Cloud
-- Upload your repo to GitHub (without any API keys).
-- On Streamlit Cloud, set your `OPENAI_API_KEY` in the app's Secrets panel (Settings > Secrets).
-- The app will securely use your API key from `st.secrets`.
-
-## Customization
+## Customisation
 - Tweak the prompts in `joke_generator/generator.py` for different joke styles.
 - Extend the app to generate other content types (quotes, stories, etc).
 
 ## License
 Mozilla Public License Version 2.0
+
+
+
+## Contact
+
+For any questions or feedback, please contact Ritik Suri at [Ritik1704@gmail.com](mailto:Ritik1704@gmail.com).
