@@ -1,6 +1,6 @@
 # Joke Content Generator 🎉
 
-A modern, Streamlit app that generates creative jokes based on any topic you provide! Powered by OpenAI and LangGraph, this project demonstrates clean architecture and production-ready code. This can help comedians to get some innovative ideas before hand.
+A modern, Streamlit app that generates creative jokes based on any topic you provide! Powered by OpenAI and LangGraph, this project demonstrates clean architecture and production-ready code. This can help comedians to get some innovative ideas beforehand.
 
 ## Features
 - Enter any topic and get a witty, original joke
