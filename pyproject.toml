@@ -1,0 +1,13 @@
+[project]
+name = "joke-content-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.30",
+    "langgraph>=0.6.5",
+    "streamlit>=1.48.1",
+]
